@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Silk Road Dispatch</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- FAVICON -->
+		<link rel="shortcut icon" type="image/png" href="favicon/logocon.png">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/background.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/logo.jpg" alt="">
+				</div>
+				<form action="/" method="post">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<input type="text" name="fName" placeholder="First Name" class="form-control" required autofocus>
+						<input type="text" name="lName" placeholder="Last Name" class="form-control" required>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="company" placeholder="Company Name" class="form-control">
+						<!-- <i class="zmdi zmdi-business"></i> -->
+					</div>
+					<div class="form-wrapper">
+						<input type="email" name="email" placeholder="Email Address" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<select name="" id="" class="form-control">
+							<option value="" disabled selected>Carrier</option>
+							<option value="carrier">Carrier</option>
+							<option value="shipper">Shipper</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="phoneNum" placeholder="Phone Number" class="form-control" required>
+						<i class="zmdi zmdi-phone"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="MC" placeholder="MC or USDOT Number " class="form-control" required>
+						<!-- <i class="zmdi zmdi-lock"></i> -->
+					</div>
+					<button>Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
